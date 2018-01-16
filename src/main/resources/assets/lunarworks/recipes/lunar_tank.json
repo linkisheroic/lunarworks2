@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"IGI",
+		"IGI",
+		"IGI"
+	],
+	"key": {
+		"I": {
+			"item": "lunarworks:silver_ingot"
+		},
+		"G": {
+			"item": "minecraft:glass"
+		}
+	},
+	"result": {
+		"item": "lunarworks:lunar_tank"
+	}
+}

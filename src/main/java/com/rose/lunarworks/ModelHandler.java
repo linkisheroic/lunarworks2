@@ -31,12 +31,19 @@ public class ModelHandler {
 		register(silverPickaxe);
 		register(silverShovel);
 		register(silverHoe);
+		
+		register(silverHelmet);
+		register(silverChestplate);
+		register(silverLeggings);
+		register(silverBoots);
 	}
 	
 	private static void blockModels()
 	{
 		register(silverOre);
 		register(silverBlock);
+		register(lunarCondenser);
+		register(lunarTank);
 	}
 	
 	private static void register(Item item)

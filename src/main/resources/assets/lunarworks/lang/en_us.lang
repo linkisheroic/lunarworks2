@@ -1,5 +1,7 @@
 tile.silverOre.name=Silver Ore
 tile.silverBlock.name=Block of Silver
+tile.lunarCondenser.name=Lunar Condenser
+tile.lunarTank.name=Lun Tank
 
 item.silverIngot.name=Silver Ingot
 item.silverNugget.name=Silver Nugget
@@ -8,6 +10,10 @@ item.silverAxe.name=Silver Axe
 item.silverPickaxe.name=Silver Pickaxe
 item.silverShovel.name=Silver Shovel
 item.silverHoe.name=Silver Hoe
+item.silverHelmet.name=Silver Helmet
+item.silverChestplate.name=Silver Chestplate
+item.silverLeggings.name=Silver Leggings
+item.silverBoots.name=Silver Boots
 
 itemGroup.tabLunarworks=Lunarworks
 

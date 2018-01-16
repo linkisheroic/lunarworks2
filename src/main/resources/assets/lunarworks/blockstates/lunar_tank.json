@@ -1,0 +1,22 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"up": "lunarworks:blocks/lunar_tank_top",
+			"down": "lunarworks:blocks/silver_block",
+			"north": "lunarworks:blocks/lunar_tank_side",
+			"west": "lunarworks:blocks/lunar_tank_side",
+			"east": "lunarworks:blocks/lunar_tank_side",
+			"south": "lunarworks:blocks/lunar_tank_side",
+			"particle": "lunarworks:blocks/lunar_tank_top"
+		}
+	},
+	"variants": {
+		"normal": {
+			"model": "cube_all"
+		},
+		"inventory": {
+			"model": "cube_all"
+		}
+	}
+}

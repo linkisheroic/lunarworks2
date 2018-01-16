@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"I I"
+	],
+	"key": {
+		"I": {
+			"item": "lunarworks:silver_ingot"
+		}
+	},
+	"result": {
+		"item": "lunarworks:silver_helmet"
+	}
+}
