@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MMM",
+		"MMM",
+		"MMM"
+	],
+	"key": {
+		"M": {
+			"item": "lunarworks:silver_nugget"
+		}
+	},
+	"result": {
+		"item": "lunarworks:silver_ingot"
+	}
+}
