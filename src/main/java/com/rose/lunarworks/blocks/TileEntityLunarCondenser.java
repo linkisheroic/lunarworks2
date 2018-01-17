@@ -13,7 +13,7 @@ public class TileEntityLunarCondenser extends TileEntity implements ITickable {
 	
 	public boolean isUnderSky() {
         return canSeeSky;
-    }
+	}
 	
 	public boolean isMoonOut() {
 		return moon;
@@ -26,11 +26,12 @@ public class TileEntityLunarCondenser extends TileEntity implements ITickable {
 	@Override
 	public void onLoad() {
 		// TODO Auto-generated method stub
-		world.scheduleBlockUpdate(pos, world.getBlockState(pos).getBlock(), 2, 1);;
+		world.scheduleBlockUpdate(pos, world.getBlockState(pos).getBlock(), 2, 1);
 	}
 	
 	@Override
 	public void update() {
+<<<<<<< HEAD
 			if(!world.isDaytime()) {
 				lunStorage += 1;
 			}	
@@ -53,6 +54,19 @@ public class TileEntityLunarCondenser extends TileEntity implements ITickable {
 			if(lunStorage > 3000) {
 				lunStorage = 3000;
 			}
+=======
+		System.out.println("fuck");
+		
+		canSeeSky = world.canSeeSky(pos);
+		moon = world.getMoonPhase() != 0;
+		
+		if(lunStorage > 3000) {
+			lunStorage = 3000;
+		} else if(canSeeSky && !world.isDaytime())
+		{
+			lunStorage += 10;
+		}	
+>>>>>>> 4e84668a081cf1453df47a458ee983a69a41bd55
 	}
 	
 	 	@Override
