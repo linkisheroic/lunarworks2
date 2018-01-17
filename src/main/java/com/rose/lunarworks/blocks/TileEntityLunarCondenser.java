@@ -31,13 +31,10 @@ public class TileEntityLunarCondenser extends TileEntity implements ITickable {
 	
 	@Override
 	public void update() {
-		if(world.canBlockSeeSky(pos) && !world.isDaytime()) {
-			lunStorage += 10;
-		}	
-		
-		System.out.println("fuck");
-		
-			if(world.canSeeSky(pos)) {
+			if(!world.isDaytime()) {
+				lunStorage += 1;
+			}	
+			/*if(world.canSeeSky(pos)) {
 				canSeeSky = true;
 			}
 			
@@ -51,7 +48,7 @@ public class TileEntityLunarCondenser extends TileEntity implements ITickable {
 			
 			else if(world.getMoonPhase() == 0) {
 				moon = false;
-			}
+			}*/
 			
 			if(lunStorage > 3000) {
 				lunStorage = 3000;

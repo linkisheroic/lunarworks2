@@ -2,6 +2,7 @@ package com.rose.lunarworks;
 
 import com.rose.lunarworks.blocks.ModBlocks;
 import com.rose.lunarworks.blocks.TileEntityLunarCondenser;
+import com.rose.lunarworks.fluids.ModFluids;
 import com.rose.lunarworks.items.ModItems;
 import com.rose.lunarworks.proxy.CommonProxy;
 
@@ -36,6 +37,7 @@ public class Lunarworks {
     	MinecraftForge.EVENT_BUS.register(ModItems.class);
     	GameRegistry.registerWorldGenerator(new WorldGenOres(), 3);
 		GameRegistry.registerTileEntity(TileEntityLunarCondenser.class, Lunarworks.MODID + "_lunar_condenser");
+		ModFluids.registerFluids();
     }
 
     @EventHandler

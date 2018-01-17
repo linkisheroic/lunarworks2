@@ -27,6 +27,7 @@ public class BlockLunarCondenser extends Block implements ITileEntityProvider {
 		super(Material.IRON);
 		this.setUnlocalizedName("lunarCondenser");
 		this.setRegistryName("lunar_condenser");
+		this.setTickRandomly(true);
 	}
 	
 	@Override
